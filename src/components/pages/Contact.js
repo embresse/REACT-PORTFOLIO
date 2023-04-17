@@ -44,9 +44,9 @@ export default function Contact() {
 
   return (
     <div className="row justify-content-center">
-      <div className="p-3 col-9 col-sm-6">
-        <h3>Contact Me:</h3>
-        <div className="card p-3 shadow">
+      <div className="p-2 col-9 col-sm-8">
+        <h3 className="p-2">Contact Me:</h3>
+        <div className="card p-4 shadow">
           <form className="form">
             <div class="mb-3">
               <label for="name" class="form-label">
