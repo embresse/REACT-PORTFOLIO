@@ -20,10 +20,9 @@ npm i;
 
 ## Link
 
+ https://embresse.github.io/REACT-PORTFOLIO/
 
-
-
-![screenshot.]()
+![screenshot.](./assets/Screen%20Shot%202023-04-17%20at%204.06.06%20PM.png)
 
 ## Credits
 
