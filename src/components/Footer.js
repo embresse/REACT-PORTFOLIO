@@ -11,14 +11,14 @@ export default function Footer() {
     <div className="fixed-bottom footer">
       <div>
         <ul className="nav justify-content-center">
-          <li className="nav-item p-3">
-            <a href="mailto: embresse@gmail.com" target="_blank">
-              {mailIcon}
-            </a>
-          </li>
-          <li className="nav-item p-3">
+          <li className="nav-item p-2">
             <a href="https://github.com/embresse" target="_blank">
               {gitHub}
+            </a>
+          </li>
+          <li className="nav-item p-2">
+            <a href="mailto: embresse@gmail.com" target="_blank">
+              {mailIcon}
             </a>
           </li>
         </ul>

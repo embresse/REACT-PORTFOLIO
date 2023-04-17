@@ -2,8 +2,8 @@ import React from "react";
 
 function Nav({ currentPage, handlePageChange }) {
   return (
-    <div className="header row align-items-center p-3">
-      <div className="col-5">
+    <div className="header row align-items-center p-5">
+      <div className="col">
         <h1 className="display-5">Erin Bresse</h1>
       </div>
       <div className="col">
