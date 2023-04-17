@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-
+// add icons
 const mailIcon = <FontAwesomeIcon icon={faEnvelope} size="2xl" />;
 const gitHub = <FontAwesomeIcon icon={faGithub} size="2xl" />;
 
