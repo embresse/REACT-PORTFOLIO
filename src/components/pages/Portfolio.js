@@ -1,5 +1,5 @@
 import React from "react";
-import portfolioData from "../../portfolioProjects";
+import portfolioProjects from "../../portfolioProjects";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
@@ -13,7 +13,7 @@ export default function Portfolio() {
     <div className="p-3 flex-row justify-center">
       <h3 className="text-center">Portfolio</h3>
       <div className="row flex-row justify-space-between my-4">
-        {portfolioData.map((project) => (
+        {portfolioProjects.map((project) => (
           <div key={project.id} className="col-12 col-xl-6 ">
             <div className="m-2 mb-4 shadow project-card">
               <img
