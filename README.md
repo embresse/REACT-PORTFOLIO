@@ -2,7 +2,9 @@
 
 ## Description
 
+```m
 A React app made with blood, sweat, and many tears but also *love* to showcase a new and improved portfolio with some of the latest technologies. The user is able to navigate to different pages such as an About Me page as well as a Portfolio page to view some of my latest assignments.
+```
 
 ## User Story
 
