@@ -2,11 +2,11 @@ import React from "react";
 import portfolioProjects from "../../portfolioProjects";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { faLink } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 // add icons
 const gitHub = <FontAwesomeIcon icon={faGithub} size="lg" />;
-const globe = <FontAwesomeIcon icon={faGlobe} size="lg" />;
+const link = <FontAwesomeIcon icon={faLink} size="lg" />;
 
 export default function Portfolio() {
   return (
@@ -29,7 +29,7 @@ export default function Portfolio() {
                     GitHub {gitHub}
                   </a>
                   <a href={project.deployed} className="btn" target="_blank">
-                    Web App {globe}
+                    Click to See! {link}
                   </a>
                 </div>
               </div>
