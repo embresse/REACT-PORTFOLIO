@@ -2,7 +2,7 @@ import NotesApp from './images/NotesApp.png';
 import PWA from './images/PWA.png';
 import EmployeeGenerator from './images/employeeprofgen.png';
 import WorkDay from './images/workday.png';
-
+import Saddle from './images/saddle.png';
 
 const portfolioProjects = [
    {
@@ -33,6 +33,13 @@ const portfolioProjects = [
         "image": EmployeeGenerator,
         "id": 0
      }, 
+     {
+      "title" : "Saddle Music",
+      "gitHub" : "https://github.com/cbw1981/Saddle",
+      "deployed" : "https://saddle.herokuapp.com/",
+      "image" : Saddle,
+      "id" : 4
+     }
    
 ]
 
